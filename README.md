@@ -1,9 +1,6 @@
 ## Chat Application
 
-### 
-```
 This project was powered by using websocket, nodeJS, React and pure css with variables. You can learn how to use web sockets and some React concepts.
-```
 
 ## [Live Site]()
 
