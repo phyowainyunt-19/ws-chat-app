@@ -1,0 +1,51 @@
+@import "../css/root.css";
+
+/* set up the body */
+
+html,
+body {
+  font-family: var(--ff-roboto);
+  padding: 0;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 1rem 1.2rem;
+  width: 100%;
+}
+
+.header_text {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1.325rem;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+@media (max-width: 40rem) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}

@@ -1,0 +1,113 @@
+#root {
+  height: 100vh;
+}
+
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+  /* colors */
+  --clr-white: #fff;
+  --clr-primary: #2979ff;
+  --clr-dark: #1a1a1d;
+
+  /* font-sizes */
+  --fs-700: 2.5em;
+
+  /* font-families */
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-serif: "Bellefair", serif;
+  --ff-sans-cond: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Barlow", sans-serif;
+}
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+/* general */
+
+/* colors */
+
+.bg-white {
+  background-color: var(--clr-white);
+}
+.bg-primary {
+  background-color: var(--clr-primary);
+}
+.bg-dark {
+  background-color: var(--clr-dark);
+}
+
+.text-white {
+  color: var(--clr-white);
+}
+.text-primary {
+  color: var(--clr-primary);
+}
+.text-dark {
+  color: var(--clr-dark);
+}
+
+/* Typography */
+
+.ff-roboto {
+  font-family: var(--ff-roboto);
+}
+.ff-serif {
+  font-family: var(--ff-serif);
+}
+.ff-sans-cond {
+  font-family: var(--ff-sans-cond);
+}
+.ff-sans-normal {
+  font-family: var(--ff-sans-normal);
+}
+
+.fs-700 {
+  font-size: var(--fs-700);
+}
+
+.mt-20 {
+  margin-top: 1.325rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
