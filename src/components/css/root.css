@@ -10,9 +10,11 @@
   /* colors */
   --clr-white: #fff;
   --clr-primary: #2979ff;
+  --clr-accent: #828282;
   --clr-dark: #1a1a1d;
 
   /* font-sizes */
+  --fs-600: 1.2em;
   --fs-700: 2.5em;
 
   /* font-families */
@@ -71,6 +73,10 @@ p {
 .bg-primary {
   background-color: var(--clr-primary);
 }
+.bg-accent {
+  background-color: var(--clr-accent);
+}
+
 .bg-dark {
   background-color: var(--clr-dark);
 }
@@ -100,6 +106,9 @@ p {
   font-family: var(--ff-sans-normal);
 }
 
+.fs-600 {
+  font-size: var(--fs-600);
+}
 .fs-700 {
   font-size: var(--fs-700);
 }

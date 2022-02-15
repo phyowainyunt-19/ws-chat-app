@@ -29,15 +29,38 @@ body {
 .header_text {
   padding-bottom: 10px;
   border-bottom: 2px solid white;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .btn {
-  text-decoration: none;
-  padding: 1.325rem;
-  border-radius: 5px;
   display: inline-block;
-  border: none;
+  border-radius: 5px;
   width: 100%;
+  border: none;
+  padding: 1.325rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--clr-dark);
+  color: var(--clr-white);
+  border: 1px solid #fff;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @media (max-width: 40rem) {
